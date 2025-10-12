@@ -23,10 +23,14 @@ The model tracks performance block-wise (per sigma) using macro-F1 and provides 
 
 ## Installation
 
-git clone https://github.com/<tu_usuario>/<tu_repo>.git
-cd <tu_repo>
+git clone https://github.com/davidfreire/AdaptiveAgents-FER.git
+
+cd AdaptiveAgents-FER
+
 python3 -m venv .venv
+
 source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
+
 pip install -r requirements.txt
 
 ---
@@ -64,9 +68,9 @@ You can modify these values directly in `Cfg` or parameterize them later.
 
 The code expects CLIP embeddings and metadata structured like:
 
-data/2_clip_embeddings/filtered/
-├── embeddings.npy
-└── metadata_embeddings.csv
+data/2_clip_embeddings/filtered/embeddings.npy
+
+data/2_clip_embeddings/filtered/metadata_embeddings.csv
 
 ---
 
