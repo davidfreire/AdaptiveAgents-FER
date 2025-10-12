@@ -90,7 +90,7 @@ They contain time-series data for global F1 metrics and agent states.
 
 Each agent has its own classifier and dataset origin.
 
-Learning occurs only in the "learn" phase unless peer_learn_in_eval=True.
+Learning occurs only in the training phase unless peer_learn_in_eval=True.
 
 The system stops automatically when all sigma blocks are evaluated.
 
