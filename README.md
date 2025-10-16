@@ -22,7 +22,7 @@ The model tracks performance block-wise (per sigma) using macro-F1 and provides 
 ---
 
 ## Installation
-
+```
 git clone https://github.com/davidfreire/AdaptiveAgents-FER.git
 
 cd AdaptiveAgents-FER
@@ -32,6 +32,7 @@ python3 -m venv .venv
 source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
 
 pip install -r requirements.txt
+```
 
 ---
 
@@ -40,9 +41,9 @@ pip install -r requirements.txt
 Interactive mode (Mesa server)
 
 Launches the grid and charts in your browser:
-
+```
 python 4_mlp.py
-
+```
 The default server port is 8521 → open http://localhost:8521
 
 ---
@@ -67,10 +68,11 @@ You can modify these values directly in `Cfg` or parameterize them later.
 ## Data
 
 The code expects CLIP embeddings and metadata structured like:
-
+```
 data/2_clip_embeddings/filtered/embeddings.npy
 
 data/2_clip_embeddings/filtered/metadata_embeddings.csv
+```
 
 ---
 
