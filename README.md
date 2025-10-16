@@ -77,11 +77,11 @@ data/2_clip_embeddings/filtered/metadata_embeddings.csv
 ## Outputs
 
 During training/evaluation, the following files are generated:
-
+```
 results_*_model_timeseries.csv
 
 results_*_agent_timeseries.csv
-
+```
 They contain time-series data for global F1 metrics and agent states.
 
 ---
