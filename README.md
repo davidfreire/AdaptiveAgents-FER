@@ -101,17 +101,18 @@ The system stops automatically when all sigma blocks are evaluated.
 MIT License © 2025 davidfreire
 ---
 
-## References (pending)
+## Citation
 
-A proper reference list and citations will be added later.
-For now, placeholder BibTeX entry:
+[arXiv](https://arxiv.org/abs/2510.13557)
 
-@article{pending_reference,
-  title={Pending reference for Emotional Agents with MLP},
-  author={To be completed},
-  journal={TBD},
-  year={2025}
+```
+@InProceedings{Freire_AAIS25,
+    author    = {David Freire-Obregón and José Salas-Cáceres and Javier Lorenzo-Navarro and Oliverio J. Santana and Daniel Hernández-Sosa and Modesto Castrillón-Santana},
+    title     = {Modeling Cultural Bias in Facial Expression Recognition with Adaptive Agents},
+    booktitle = {Proceedings of the International Symposium on Agentic Artificial Intelligence Systems (AAIS 2025)},
+    month     = {November},
+    year      = {2025}
 }
-
+```
 ---
 
